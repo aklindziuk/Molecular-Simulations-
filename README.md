@@ -1,14 +1,20 @@
-# Molecular-Simulations-
+# Molecular-Simulations- Monte Carlo
+
+
 
 Molecular Monte Carlo Simulation of Hard Sphere Fluid:
 
 Problem description and results are found in the .pdf file.
 
+1) Implement Metropolis Monte Carlo to simulate hard sphere fluid 
+2) Calculate radial distribution function at various stages
+3) Find average radial distribution of the ensemble
+4) Find standard error of the values in the histogram
+
 - main.c does Monte Carlo, finds g(r) histograms for each sampling instance, and saves them as text file in folder tmp
 - histogram.c , xyzout.c, xyzin.c, init.c are subroutines of main.c
 - avg_hist.c takes the histograms from the folder and averages them saving them in tmp
 - error.c computes the standard error of g(d+) 
-I ran these three scripts separately for each density. 
 
 If you want to run this code, you will need :
 - gnuplot, which I called with C commands to plot the data and make the graphs
