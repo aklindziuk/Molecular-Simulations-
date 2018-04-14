@@ -1,0 +1,8 @@
+This is a molecular dynamics simultion of a Lennard-Jones Fluid
+implementing Velocity Verlet algorithm for integration of Newton's Equations
+post-processing code for radial distribution function and diffusion coefficient is also attached
+
+
+.... 
+to run the code, will need a data folder
+as well as GNU scientific library installed
